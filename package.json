@@ -1,0 +1,16 @@
+{
+  "name": "lightning-scatter-streaming",
+  "version": "0.0.0",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "lightning": {
+    "name": "scatter-streaming"
+  }
+}
