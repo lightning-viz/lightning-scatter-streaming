@@ -2,7 +2,8 @@
   "name": "lightning-scatter-streaming",
   "version": "0.0.0",
   "dependencies": {
-    "lodash": "^3.8.0"
+    "lodash": "^3.8.0",
+    "lightning-scatter": "^0.0.6",
   },
   "keywords": [
     "lightning-visualization"
