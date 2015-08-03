@@ -1,6 +1,4 @@
 'use strict';
-var d3 = require('d3');
-var MultiaxisZoom = require('d3-multiaxis-zoom');
 var Scatter = require('lightning-scatter');
 var _ = require('lodash');
 
