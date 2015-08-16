@@ -1,6 +1,6 @@
 {
   "name": "lightning-scatter-streaming",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "dependencies": {
     "lodash": "^3.8.0",
     "lightning-scatter": "^0.1.4"
