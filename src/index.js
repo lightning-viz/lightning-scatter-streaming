@@ -10,7 +10,8 @@ var Visualization = Scatter.extend({
     getDefaultOptions: function() {
         return {
             brush: false,
-            selection: false
+            tooltips: false,
+            zoom: true
         }
     },
 
