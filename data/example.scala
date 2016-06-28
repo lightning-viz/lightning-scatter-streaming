@@ -3,13 +3,13 @@ import scala.util.Random
 
 val lgn = Lightning()
 
-var x = Array.fill(100)(Random.nextFloat() * 15)
-var y = Array.fill(100)(Random.nextFloat() * 15)
+var x = Array.fill(100)(Random.nextDouble() * 15)
+var y = Array.fill(100)(Random.nextDouble() * 15)
 
-val viz = lgn.scatterstreaming(x, y)
+val viz = lgn.scatterStreaming(x, y)
 
-Range(100).forEach(
-	x = Array.fill(100)(Random.nextFloat() * 15)
-	y = Array.fill(100)(Random.nextFloat() * 15)
-	lgn.scatterstreaming(x, y, viz)
-)
+Range(0,100).foreach { _ =>
+	x = Array.fill(100)(Random.nextDouble() * 15)
+	y = Array.fill(100)(Random.nextDouble() * 15)
+	lgn.scatterstreaming(x=x, y=y, viz=viz)
+}
